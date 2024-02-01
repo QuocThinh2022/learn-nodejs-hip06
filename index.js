@@ -14,7 +14,7 @@ app.use(express.json())
 app.use(express.urlencoded({extended: true}))
 
 app.use('/', (req, res) => {
-    return res.send('Server on!!!')
+    return res.send('Server on!!')
 })
 
 const PORT = process.env.PORT || 3000
